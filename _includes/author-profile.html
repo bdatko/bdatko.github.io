@@ -266,6 +266,15 @@
         </li>
       {% endif %}
 
+    <!-- ResearchGate icon code -->
+    {% if site.author.researchgate %}
+    <li>
+        <a href="https://www.researchgate.net/profile/{{ site.author.researchgate }}">
+            <i class="ai ai-researchgate-square ai-fw" aria-hidden="true"></i> ResearchGate
+        </a>
+    </li>
+    {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
