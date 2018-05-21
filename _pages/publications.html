@@ -1,0 +1,45 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<div class="publist">
+    <!-- 'ol= order list' -->  
+  <ol reversed>
+    {% for post in site.publications reversed %}
+      {% if post.work-type == 'Paper' %}
+      <!-- 'li= list item -->
+        <li>
+            <strong> {{ post.ref-title }} </strong> <br>{{ post.ref-authors }}
+          <p>
+            <em>{{ post.ref-journal}},</em>
+            <strong> {{ post.ref-year }} </strong>
+            {% if post.ref-vol %}, {{ post.ref-vol }}{% endif %}
+            {% if post.ref-number %}, ({{ post.ref-number }}){% endif %}
+            {% if post.ref-pages %}, pp {{ post.ref-pages %}}{% endif %}
+            {% if post.ref-doi %}
+              <a href="http://dx.doi.org/{{ post.ref-doi }}">
+                  <strong>DOI</strong>: {{ post.ref-doi }}
+              </a>
+            {% endif %}
+          </p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</div>
+
+
+{% comment %}
+          <a href="{% if post.ref-doi %}http://dx.doi.org/{{ post.ref-doi }}
+            {% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+            <h2>{{ post.ref-authors }} ({{ post.ref-year }}).</h2></a>
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endcomment %}
