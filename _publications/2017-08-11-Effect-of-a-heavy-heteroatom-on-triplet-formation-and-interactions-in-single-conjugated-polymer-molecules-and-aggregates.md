@@ -8,7 +8,7 @@ date: 2017-08-11
 category: science
 
 work-type: Paper
-ref-authors: Datko, Benjamin D., Thomas, Alan K., Fei, Zhuping, Heeney, Martin and Grey, John K.
+ref-authors: Benjamin D. Datko, Alan K. Thomas, Zhuping Fei, Martin Heeney, and John K. Grey
 ref-year: 2017
 ref-title: Effect of a heavy heteroatom on triplet formation and interactions in single conjugated polymer molecules and aggregates
 ref-journal: Phys. Chem. Chem. Phys.

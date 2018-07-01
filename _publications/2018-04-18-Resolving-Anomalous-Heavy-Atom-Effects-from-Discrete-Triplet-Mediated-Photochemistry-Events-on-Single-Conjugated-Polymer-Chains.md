@@ -8,7 +8,7 @@ date: 2018-04-18
 category: science
 
 work-type: Paper
-ref-authors: Datko, Benjamin D., Walwark, David J., Fei, Zhuping, Heeney, Martin J., and Grey, John K.
+ref-authors: Benjamin D. Datko, David J. Walwark, Zhuping Fei, Martin J. Heeney, and John K. Grey
 ref-year: 2018
 ref-title: Resolving Anomalous Heavy Atom Effects from Discrete Triplet Mediated Photochemistry Events on Single Conjugated Polymer Chains
 ref-journal: J. Phys. Chem. C

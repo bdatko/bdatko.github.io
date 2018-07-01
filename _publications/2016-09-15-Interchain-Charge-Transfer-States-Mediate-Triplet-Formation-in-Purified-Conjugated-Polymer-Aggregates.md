@@ -8,7 +8,7 @@ date: 2016-9-15
 category: science
 
 work-type: Paper
-ref-authors: Thomas, Alan K., Brown, Hunter A., Datko, Benjamin D., Garcia-Galvez, Jose A., and Grey, John K.
+ref-authors: Alan K. Thomas, Hunter A. Brown, Benjamin D. Datko, Jose A. Garcia-Galvez, and John K. Grey
 ref-year: 2016
 ref-title: Interchain Charge-Transfer States Mediate Triplet Formation in Purified Conjugated Polymer Aggregates
 ref-journal: J. Phys. Chem. C
