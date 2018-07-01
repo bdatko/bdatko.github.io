@@ -20,6 +20,8 @@ author_profile: true
             {% if post.ref-vol %}, {{ post.ref-vol }}{% endif %}
             {% if post.ref-number %}, ({{ post.ref-number }}){% endif %}
             {% if post.ref-pages %}, pp {{ post.ref-pages }}{% endif %}
+            <br>{% if post.type %} {{ post.type }}.{% endif %}
+            {% if post.location %} {{ post.location }}{% endif %}
             {% if post.ref-doi %}
               <a href="http://dx.doi.org/{{ post.ref-doi }}">
                   <strong>DOI</strong>: {{ post.ref-doi }}
